@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    background-color: silver;
+    font-family: verdana;
+}
+
+.all {
+    width: 980px;
+    min-height: 660px;
+    background-color: white;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+.table {
+    width: 800px;
+    height: 500px;
+    margin: 0 auto;
+    background-color: green;
+    position: relative;
+}
+
+.table .card {
+    position: absolute;
+    background-color: white;
+    top: 50px;
+    left: 50px;
+    width: 100px;
+    height: 145px;
+    text-align: center;
+    line-height: 145px;
+}
+
+#OpponentCard {
+    top: 200px;
+    left: 600px;
+}
+
+#MyCard {
+    top: 200px;
+    left: 100px;
+}
+
+.table h1 {
+    position: absolute;
+    top: 20px;
+    text-align: center;
+    width: 100%;
+    color: white;
+}
+
+.card img {
+    width: 100%;
+    height: 100%;
+}
